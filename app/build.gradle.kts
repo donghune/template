@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "io.github.donghune.template"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "io.github.donghune.template"
@@ -62,6 +62,7 @@ dependencies {
     implementation(libs.androidx.material3)
 
     implementation(libs.okhttp)
+    implementation(libs.okhttp.logging)
     implementation(libs.retrofit)
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.retrofit2.kotlinx.serialization.converter)
